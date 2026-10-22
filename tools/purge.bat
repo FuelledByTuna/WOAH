@@ -17,6 +17,9 @@ del /q "%GAME_DIR%\Data\F4SE\Plugins\%PLUGIN_NAME%.dll" 2>nul
 del /q "%GAME_DIR%\Data\F4SE\Plugins\%PLUGIN_NAME%.ini" 2>nul
 del /q "%GAME_DIR%\Data\F4SE\Plugins\%PLUGIN_NAME%.pdb" 2>nul
 del /q "%GAME_DIR%\Data\F4SE\Plugins\%PLUGIN_NAME%.ini.log" 2>nul
+del /q "%GAME_DIR%\Data\Scripts\Tuna_%PLUGIN_NAME%_*.pex" 2>nul
+del /q "%GAME_DIR%\Data\Scripts\User\Tuna\Tuna_%PLUGIN_NAME%_*.pex" 2>nul
+del /q "%GAME_DIR%\Data\Scripts\Source\User\Tuna\Tuna_%PLUGIN_NAME%_*.psc" 2>nul
 
 echo Purge done.
 goto :eof

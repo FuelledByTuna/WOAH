@@ -4,6 +4,7 @@
 .vs/
 .vscode/
 .xmake/
+tools/
 
 # folders
 build*/
