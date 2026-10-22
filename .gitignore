@@ -13,5 +13,7 @@ vs*/
 *.zip
 *.dll
 *.pex
+*.pdb
 *.log
 compile_commands.json
+commiting_prefixes.md
