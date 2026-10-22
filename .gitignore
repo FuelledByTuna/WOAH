@@ -11,4 +11,7 @@ vs*/
 
 # files
 *.zip
+*.dll
+*.pex
+*.log
 compile_commands.json
