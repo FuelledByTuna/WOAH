@@ -40,7 +40,7 @@ Edit the INI next to the DLL. Changes are read when the game starts.
 | `iAction2` | Keys | 88 (X) | Action 2: **redo** |
 | `fSaveWarnTime` | General | 15.0 | Minutes between save warnings. `0` = never warn |
 
-**Keys:** values are Windows virtual-key codes. [Codes can be found here](https://fallout.wiki/wiki/Resource:Creation_Kit/DirectX_Scan_Codes)
+**Keys:** values are Windows virtual-key codes. [Codes can be found here](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
 
 **Modifier:** it stands for a key you hold while pressing the action key, such as Shift, Ctrl or Alt. It can also be a normal key (A, S, D, F...), though that is mostly unuseful for console scripters. If `iModifier` is `0`, the action keys work on their own.
 
@@ -55,7 +55,7 @@ xmake project -k compile_commands
 xmake build
 ```
 
-The DLL is built `in build\windows\x64\release\` and copied to `package\F4SE\Plugins\.`
+The DLL is built in `build\windows\x64\release\` and copied to `package\F4SE\Plugins\`.
 
 ## License
 
