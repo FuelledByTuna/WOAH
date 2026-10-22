@@ -7,7 +7,7 @@ Built with [CommonLibF4](https://github.com/libxse/commonlibf4) using the
 
 ## Goals
 
-> **Status: early development, not playable yet.** The plugin loads, reads its INI and detects the hotkeys. The history system itself is still to be built, see the [goals](#appendix-goals).
+> **Status: early development, not playable yet.** The plugin loads, reads its INI and detects the hotkeys. The history system itself is still to be built.
 
 - [ ] 1. A working base that undoes and redoes any **scrapping**
 - [ ] 2. Moving and placing history
