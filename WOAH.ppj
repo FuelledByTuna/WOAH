@@ -1,0 +1,7 @@
+<PapyrusProject xmlns="PapyrusProject.xsd" Game="fo4" Flags="Institute_Papyrus_Flags.flg" Output="package\Scripts">
+    <Imports>
+        <Import>package\Scripts\Source\User</Import>
+        <Import>C:\Program Files (x86)\Steam\steamapps\common\Fallout 4\Data\Scripts\Source\Base</Import>
+        <Import>C:\Program Files (x86)\Steam\steamapps\common\Fallout 4\Data\Scripts\Source\F4SE</Import>
+    </Imports>
+</PapyrusProject>
